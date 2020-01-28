@@ -1,32 +1,12 @@
-1.4
+1.5
 
 
-			MKSGroup_Name	Operation	MKSUsers_to_add/remove	MKSGroups_to_add/remove	
-administrator	add	mksadm	Customers	null
-administrator	remove	AbinKris,admintjs	null
-MKSGroup_Name	Operation	MKSUsers_to_add/remove	MKSGroups_to_add/remove	
-administrator	add	mksadm	Customers	null
-administrator	remove	AbinKris,admintjs	null
-MKSGroup_Name	Operation	MKSUsers_to_add/remove	MKSGroups_to_add/remove	
-administrator	add	mksadm	Customers	null
-administrator	remove	AbinKris,admintjs	null
-MKSGroup_Name	Operation	MKSUsers_to_add/remove	MKSGroups_to_add/remove	
-administrator	add	mksadm	Customers	null
-administrator	remove	AbinKris,admintjs	null
-MKSGroup_Name	Operation	MKSUsers_to_add/remove	MKSGroups_to_add/remove	
-administrator	add	mksadm	Customers	null
-administrator	remove	AbinKris,admintjs	null
-MKSGroup_Name	Operation	MKSUsers_to_add/remove	MKSGroups_to_add/remove	
-administrator	add	mksadm	Customers	null
-administrator	remove	AbinKris,admintjs	null
-MKSGroup_Name	Operation	MKSUsers_to_add/remove	MKSGroups_to_add/remove	
-administrator	add	mksadm	Customers	null
-administrator	remove	AbinKris,admintjs	null
-MKSGroup_Name	Operation	MKSUsers_to_add/remove	MKSGroups_to_add/remove	
-administrator	add	mksadm	Customers	null
-administrator	remove	AbinKris,admintjs	null
-MKSGroup_Name	Operation	MKSUsers_to_add/remove	MKSGroups_to_add/remove	
-administrator	add	mksadm	Customers	null
-administrator	remove	AbinKris,admintjs	null
+			nction log(sMsg) {
+        Packages.mks.util.Logger.message(sMsg);
+}
 
+// Aborts the script and rolls back changes
+function abort(s) {
+        eb.abortScript(s, true);
+}
 	
