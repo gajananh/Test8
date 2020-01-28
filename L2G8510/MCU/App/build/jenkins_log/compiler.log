@@ -1,20 +1,3 @@
-1.2 compiler
+1.3 compiler
 
-
-				String IntegrityType = df.formatCellValue(cellValue2);
-				System.out.println("IntegrityType "+ cellValue2);
-				listDngATtributes.add(IntegrityType);
-
-				String DngType = df.formatCellValue(cellValue0);
-				System.out.println("DngType "+ cellValue0);
-				listDngATtributes.add(DngType);
-
-				// MAKING LEGACY ID AS MAP INDENTIFIER SO NOT ADDED TO LIST
-				// ADDED TO MAP AS KEY
-				String LegacyId = df.formatCellValue(cellValue3);
-				System.out.println("LegacyId "+ cellValue3);
-				//	listDngATtributes.add(LegacyId);
-
-				String DocumentId = df.formatCellValue(cellValue4);
-				System.out.println("DocumentId "+ cellValue4);
-				listDngATtributes.add(DocumentId);
+test
