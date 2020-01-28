@@ -1,7 +1,23 @@
-1.5
+1.6 
 
 
 			nction log(sMsg) {
+        Packages.mks.util.Logger.message(sMsg);
+}
+
+// Aborts the script and rolls back changes
+function abort(s) {
+        eb.abortScript(s, true);
+}
+nction log(sMsg) {
+        Packages.mks.util.Logger.message(sMsg);
+}
+
+// Aborts the script and rolls back changes
+function abort(s) {
+        eb.abortScript(s, true);
+}
+nction log(sMsg) {
         Packages.mks.util.Logger.message(sMsg);
 }
 
