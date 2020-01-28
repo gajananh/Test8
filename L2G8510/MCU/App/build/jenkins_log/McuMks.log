@@ -1,0 +1,13 @@
+1.1 
+
+
+			try {
+				var response = command.execute();
+			} catch (ex) {
+				if (ex.message.contains(new java.lang.String("already exists"))) {
+					log("MKS group already exists. Continuing with project creation.");
+				} else {
+					throw ex;
+				}
+			}
+	
